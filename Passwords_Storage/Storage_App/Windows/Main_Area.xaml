@@ -1,0 +1,31 @@
+﻿<Window x:Class="Storage_App.Main_Area"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Storage_App"
+        mc:Ignorable="d"
+        Title="Main_Area" Height="587.745" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" x:Name="nameTxt" Height="40" Margin="256,71,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="402" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" x:Name="emailTxt" Height="40" Margin="256,126,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="401" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" x:Name="loginTxt" Height="40" Margin="256,183,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="402" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" x:Name="passTxt" Height="40" Margin="256,238,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="402" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" x:Name="urlTxt" Height="40" Margin="256,295,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="401" FontSize="24"/>
+        <TextBox HorizontalAlignment="Left" x:Name="phoneTxt" Height="40" Margin="256,350,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="402" FontSize="24"/>
+        <Label Content="Site Name:" HorizontalAlignment="Left" Margin="147,76,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="86"/>
+        <Label Content="Email:" HorizontalAlignment="Left" Margin="178,136,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="56"/>
+        <Label Content="Login:" HorizontalAlignment="Left" Margin="175,191,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="53"/>
+        <Label Content="Password:" HorizontalAlignment="Left" Margin="147,243,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="80"/>
+        <Label Content="Url:" HorizontalAlignment="Left" Margin="193,300,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="43"/>
+        <Label Content="Phone:" HorizontalAlignment="Left" Margin="171,353,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="65"/>
+        <TextBox HorizontalAlignment="Left" x:Name="commentTxt" Height="40" Margin="257,406,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="401" FontSize="24"/>
+        <Label Content="Comments:" HorizontalAlignment="Left" Margin="142,410,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="94"/>
+        <Button Content="Add New" x:Name="addBtn"  HorizontalAlignment="Left" Margin="256,481,0,0" VerticalAlignment="Top" Width="139" Height="40" FontSize="20" FontFamily="Palatino Linotype" Click="addBtn_Click"/>
+        <Button Content="Show All" x:Name="showBtn"  HorizontalAlignment="Left" Margin="401,482,0,0" VerticalAlignment="Top" Width="120" Height="40" FontSize="20" FontFamily="Palatino Linotype" Click="showBtn_Click"/>
+        <Button Content="Current Users" x:Name="usersBtn"  HorizontalAlignment="Left" Margin="527,481,0,0" VerticalAlignment="Top" Width="130" Height="40" FontSize="20" FontFamily="Palatino Linotype" Click="usersBtn_Click" />
+        <Label Content="Add one new members about your website:" HorizontalAlignment="Left" Margin="187,9,0,0" VerticalAlignment="Top" FontSize="22" Height="38" Width="486"/>
+        <Button Content="LOGOUT" x:Name="logoutBtn"  HorizontalAlignment="Left" Margin="688,2,0,0" VerticalAlignment="Top" Width="96" Height="40" FontSize="20" FontFamily="Times New Roman" FontWeight="Bold" Background="#FF0D034F" Foreground="#FFFDEEEE" Click="logoutBtn_Click" />
+
+    </Grid>
+</Window>
